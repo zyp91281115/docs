@@ -43,7 +43,10 @@ const isApple = computed(() => {
 
 <template>
   <div class="ads-container">
-    <div class="wwads-container">
+    <!-- <div class="vidhub-new-bgc">
+      <img src="/img/ss/vidhub-new-bg.pic.jpg" alt="VidHub Banner" />
+    </div> -->
+    <!-- <div class="wwads-container">
       <div
         class="wwads wwads-cn wwads-horizontal"
         data-id="213"
@@ -65,7 +68,7 @@ const isApple = computed(() => {
         </div>
       </a>
       <a class="new_site" href="https://alistgo.com" target="_blank">{{ vidHub.new_site }}</a>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -188,5 +191,26 @@ const isApple = computed(() => {
     margin: unset;
   }
   max-width: var(--home-page-width);
+}
+
+.vidhub-new-bgc {
+  // width: 100%;
+  // max-width: 100%;
+  // 以上为展示图片圆角，暂时先注释
+  margin: 10px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  height: auto;
+  border-radius: 10px;
+}
+.vidhub-new-bgc img {
+  width: 100%;
+  max-height: 200px;
+  height: auto;
+  display: block;
+  object-fit: contain;//cover 为正常宽展示，但是图片宽高过大会被拉伸，先用contain
 }
 </style>

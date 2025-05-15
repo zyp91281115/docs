@@ -2,12 +2,18 @@
   <Sidebar>
     <template #top>
       <div class="ss">
+        <!-- <div class="sidebar-ad-placeholder">
+          广告 1
+        </div>
+        <div class="sidebar-ad-placeholder">
+          广告 2
+        </div>
+        <div class="sidebar-ad-placeholder">
+          广告 3
+        </div> -->
         <div class="mingdao" v-if="showMingdao">
-          <a
-            href="https://www.mingdao.com?s=utm_51=utm_source=alist&utm_medium=banner&utm_campaign=%E5%93%81%E7%89%8C%E6%8E%A8%E5%B9%BF&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1"
-            target="_blank"
-            ><img src="/img/ss/mingdao.png" alt=""
-          /></a>
+          <a href="https://www.mingdao.com?s=utm_51=utm_source=alist&utm_medium=banner&utm_campaign=%E5%93%81%E7%89%8C%E6%8E%A8%E5%B9%BF&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1"
+            target="_blank"><img src="/img/ss/mingdao.png" alt="" /></a>
           <span>{{ spStr }}</span>
         </div>
         <div style="padding: 8px; padding-bottom: 0; margin-bottom: -16px;" v-if="isDrivers">
@@ -38,6 +44,17 @@ const showMingdao = false;
 </script>
 
 <style scoped lang="scss">
+.sidebar-ad-placeholder {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 16px;
+  // background: #eee;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mingdao {
   margin-top: 8px;
   display: flex;
