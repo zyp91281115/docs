@@ -88,10 +88,10 @@ export default defineUserConfig({
     },
   }),
   alias: {
-    // "@theme-hope/components/NormalPage": path.resolve(
-    //   __dirname,
-    //   "./components/NormalPage.vue"
-    // ),
+    "@theme-hope/components/NormalPage": path.resolve(
+      __dirname,
+      "./components/NormalPage.vue"
+    ),
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
       "./components/HomePage.vue"
