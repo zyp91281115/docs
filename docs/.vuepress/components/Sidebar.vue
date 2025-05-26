@@ -3,7 +3,7 @@
     <template #top>
       <div class="ss">
         <div class="sidebar-ad-placeholder">
-          <a href="https://doc.hutool.cn/" target="_blank">
+          <a href="https://doc.hutool.cn/" target="_blank" @click="handleAdClick">
             <img src="/img/ss/hutool.pic.jpg" alt="Hutool" style="max-width: 90%; height: auto;" />
           </a>
         </div>
@@ -43,6 +43,22 @@ const isDrivers = computed(() => {
 });
 
 const showMingdao = false;
+
+const handleAdClick = async () => {
+  try {
+    await fetch('https://api.hutool.cn/blade-adv/stats', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: "hutool"
+      })
+    });
+  } catch (error) {
+    console.error('广告统计请求失败:', error);
+  }
+};
 </script>
 
 <style scoped lang="scss">
