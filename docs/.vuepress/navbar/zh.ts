@@ -25,7 +25,7 @@ export const zh = navbar([
     children: [
       { text: "演示", link: "https://alist.pages.dev/" },
       { text: "V2", link: "https://alist-doc.nn.ci" },
-      { text: "桌面版", link: "https://ad.nn.ci/" },
+      // { text: "桌面版", link: "https://ad.nn.ci/" },
     ],
   },
   {
