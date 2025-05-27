@@ -4,7 +4,7 @@
       <div class="ss">
         <div class="sidebar-ad-placeholder">
           <a href="https://doc.hutool.cn/" target="_blank" @click="handleAdClick">
-            <img src="/img/ss/hutool.pic.jpg" alt="Hutool" style="max-width: 90%; height: auto;" />
+            <img src="/img/ss/hutool.pic.jpg" alt="Hutool" style="max-width: 80%; height: auto; margin-left: 20px;" />
           </a>
         </div>
         <!-- <div class="sidebar-ad-placeholder">
@@ -64,15 +64,10 @@ const handleAdClick = async () => {
 <style scoped lang="scss">
 .sidebar-ad-placeholder {
   width: 100%;
-  height: 100px;
-  // margin-bottom: 16px;
-  margin: 35px 0 16px 0;
-  // background: #eee;
-  border-radius: 5px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
+  justify-content: flex-end;
+  margin: 35px 0 16px 0;
+  border-radius: 5px;
 }
 
 .mingdao {
