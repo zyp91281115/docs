@@ -52,7 +52,7 @@ const handleAdClick = async () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        name: "hutool"
+        name: "alist-hutool"
       })
     });
   } catch (error) {
