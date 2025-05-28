@@ -52,7 +52,7 @@ console.log(plat.value)
 
 let text = {
   down: "Download",
-  // website: "Website",
+  website: "Website",
 }
 
 const fullPlat = computed(() => {
@@ -71,7 +71,7 @@ const options = computed(() => {
 if (location.pathname.startsWith("/zh/")) {
   text = {
     down: "下载",
-    // website: "官网",
+    website: "官网",
   }
 }
 
@@ -92,9 +92,9 @@ function openWebsite() {
 <template>
   <NSpace align="center" vertical size="large">
     <NSpace class="btn">
-      <!-- <NButton size="large" type="info" @click="openWebsite" tertiary>{{
+      <NButton size="large" type="info" @click="openWebsite" tertiary>{{
         text.website
-      }}</NButton> -->
+      }}</NButton>
       <NButtonGroup>
         <NDropdown
           trigger="hover"
