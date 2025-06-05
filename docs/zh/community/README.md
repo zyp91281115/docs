@@ -22,8 +22,8 @@ sidebar: false
   <img src="/img/ss/qq%20group02.pic.jpg" alt="QQ 群二维码" class="qr-img" />
 </div>
 <div class="qr-img-row">
-  <img src='https://oss.hutool.cn/hutool/kefu/WechatIMG703.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2FWechatIMG703.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250527%2F%2Fs3%2Faws4_request&X-Amz-Date=20250527T032031Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=cc84cea6ff2b3526997ed3219dbdfa941bbfff9770c9be75ed4329a263b07034' alt="wechat 群二维码" class="qr-img" />
-  <img src='https://oss.hutool.cn/hutool/kefu/WechatIMG702.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2FWechatIMG702.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250527%2F%2Fs3%2Faws4_request&X-Amz-Date=20250527T032016Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=7d2db16ac3998a8393f1a7c074aac9505f854070be1dd3dd3158fdd580ee79fc' alt="QQ 群二维码" class="qr-img" />
+  <img src='https://oss.hutool.cn/hutool/kefu/alist111.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2Falist111.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250605%2F%2Fs3%2Faws4_request&X-Amz-Date=20250605T032338Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=00cfe433feb4d77afca79c204770e739371a564a2557d248ebb61aef367c0ba1' alt="wechat 群二维码" class="qr-img" />
+  <img src='https://oss.hutool.cn/hutool/kefu/alist222.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2Falist222.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250605%2F%2Fs3%2Faws4_request&X-Amz-Date=20250605T032349Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=18386f89d933b249fde274c2b0e83ee40cce5c3ca73c9e757858f527d6f8b4f6' alt="wechat 群二维码" class="qr-img" />
 </div>
 
 ### Telegram
