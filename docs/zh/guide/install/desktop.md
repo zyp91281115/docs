@@ -32,19 +32,18 @@ import Desktop from "@Desktop";
 
 ## **查看激活 Key**
 
-两种不同购买渠道查看方式如下
+购买渠道查看方式如下
 
 ::: tabs#Desktop
 
-@tab 面包多
+@tab 官网
 
-面包多购买的可以在多种不同渠道查看
+
 <!-- ：**https://mbd.pub/o/bread/ZJaTl5xy** -->
-1. 面包多
-2. 支付宝账单 ==> 商家订单号
-3. 微信账单 ==> 商户单号
+1. 进入官网 ==> **https://desktop.alistgo.com/zh** 
+2. 首页购买 ==> 获取激活key
 
-![](/img/desktop/key_mbd.png)
+![](/img/desktop/new_get_key.png)
 
 激活时 **`不需要`** 勾选 :black_square_button: **Lemon Squeezey**
 
@@ -70,9 +69,9 @@ Lemon Squeezy
 
 ::: tabs#Desktop
 
-@tab 面包多
+@tab 官网
 
-输入在面包多购买的`key` 将不再使用的设备进行反激活踢下线
+输入在官网购买的`key` 将不再使用的设备进行反激活踢下线
 
 <!-- - **https://ad.nn.ci/zh/usage** -->
 
