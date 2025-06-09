@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
+import { usePageData } from "@vuepress/client"
 import { computed } from 'vue'
 
-const route = useRoute()
-const isChinese = computed(() => route.path.startsWith('/zh/'))
+const pageData = usePageData()
+const isChinese = computed(() => {
+  return pageData.value.path.startsWith("/zh/")
+})
 const backgroundImage = computed(() => isChinese.value ? '/img/ss/new_bgc_zh.jpg' : '/img/ss/new_bgc_en.jpg')
 const jumpUrl = computed(() =>
   isChinese.value
