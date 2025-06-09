@@ -6,7 +6,7 @@ const pageData = usePageData()
 const isChinese = computed(() => {
   return pageData.value.path.startsWith("/zh/")
 })
-const backgroundImage = computed(() => isChinese.value ? '/img/ss/new_bgc_zh.jpg' : '/img/ss/new_bgc_en.jpg')
+const backgroundImage = computed(() => isChinese.value ? '/img/ss/new_bgc_zh.png' : '/img/ss/new_bgc_en.png')
 const jumpUrl = computed(() =>
   isChinese.value
     ? 'https://zh.okaapps.com/vidhub-alist'
@@ -161,7 +161,7 @@ console.log('当前图片:', backgroundImage.value)
   border-radius: 10px;
 }
 .vidhub-new-bgc img {
-  width: 60%;
+  width: 100%;
   max-height: 200px;
   height: auto;
   display: block;
