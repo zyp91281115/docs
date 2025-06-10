@@ -38,8 +38,8 @@ star: true
   <img src="/img/ss/qq%20group02.pic.jpg" alt="QQ 群二维码" class="qr-img" />
 </div>
 <div class="qr-img-row">
-  <img src='https://oss.hutool.cn/hutool/kefu/alist111.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2Falist111.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250605%2F%2Fs3%2Faws4_request&X-Amz-Date=20250605T032338Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=00cfe433feb4d77afca79c204770e739371a564a2557d248ebb61aef367c0ba1' alt="wechat 群二维码" class="qr-img" />
-  <img src='https://oss.hutool.cn/hutool/kefu/alist222.jpg?Content-Disposition=attachment%3B%20filename%3D%22kefu%2Falist222.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20250605%2F%2Fs3%2Faws4_request&X-Amz-Date=20250605T032349Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=18386f89d933b249fde274c2b0e83ee40cce5c3ca73c9e757858f527d6f8b4f6' alt="wechat 群二维码" class="qr-img" />
+  <img src='https://oss.hutool.cn/000000-hutool/upload/alist/alist111.jpg' alt="wechat 群二维码" class="qr-img" />
+  <img src='https://oss.hutool.cn/000000-hutool/upload/alist/alist222.jpg' alt="wechat 群二维码" class="qr-img" />
 </div>
 
 ## Telegram 群组
